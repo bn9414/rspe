@@ -1,5 +1,5 @@
 .ref_cont *{border: 1px olid}
-.ref_cont{width: 100%; height: auto;display: flex;flex-wrap: wrap;margin-top: 100px;align-items: flex-start;justify-content: flex-start;}
+.ref_cont{width: 100%; height: auto;display: flex;flex-wrap: wrap;margin-top: 100px;align-items: flex-start;justify-content: flex-start;margin-bottom: 50px;}
 .ref{display: inline-block; width: 300px ;height: auto;border: 1px olid; border-radius: 10px; padding: 10px;;margin-top: 35px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);display: flex;flex-direction: column;align-items: center;justify-content: center;margin: auto;margin: 10px auto }
 .mg{width: 300px; height: 300px;display: flex}
 .mg img{height: 100%;margin: auto;}
