@@ -140,6 +140,19 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 85px;}
 /* END: menu lines trasform*/
 
 
+
+/* start:p_menu */
+
+.pmenu,.pmenumob{width: 180px; height: auto; border: 1px solid;position: absolute;display: block;border-radius: 10px;background-color: #f9f9f9;top: 80px;left: 50px; display:one;z-index:-1;}
+.pmenu a,.pmenumob a{padding-left: 10px;border-bottom: 1px grey solid; color: #343434;display: block;margin: 5px;padding: 5px 0px 5px 10px;}
+
+.pmenumob{position: relative;top:0px;border: 0px;background-color: #343434;left: 0px;width: auto; border-radius: 0px;display: none}
+.pmenumob a{color: white; }
+#border_ex{border-bottom: 0px;}
+
+/* end:p_menu */
+
+
 /*  -----------------Navigation bar end------------------*/
     
 
