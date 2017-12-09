@@ -97,10 +97,10 @@ textarea::placeholder{color: #547A96; font-size: 16px; }
 
 @media screen and (min-width:300px) and (max-width:615px){
     .creach3{padding-bottom: 50px}
-    #cont_cont{height: 1250px;} 
+    #cont_cont{height: 1550px;} 
     #croot1{ flex-direction: column; width: 90%;}
 
-    #croot1{height: 1200px;}
+    #croot1{height: 1300px;}
     #clet{width: 100%; border-radius: 0px 0px 10px 10px; height: 60%}
     form{height: 100%;}
     #creach{width: 100%; height: 50%;  }
@@ -142,7 +142,7 @@ textarea::placeholder{color: #547A96; font-size: 16px; }
    #con_sidel1{top:670px;
     }
 @media screen and (min-width:300px) and (max-width:615px){
-    #croot1{width: 80%;} 
+    #croot1{width: 95%;} 
 }
 @media screen and (min-width:1024px) and (max-width:1115px){
     #con_sidel2{bottom: -250px;}
