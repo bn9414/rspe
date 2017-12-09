@@ -50,7 +50,7 @@ textarea:focus { outline-style: none;}
 #ciphone, #cimail{height: 60%; width: 100%; display: flex; justify-content: center; align-items: flex-end;margin-bottom: 10px;}
     #ciphone img, #cimail img{ width: 38px;}
 
-#creach p{ height: 40%; margin: 0px; color: #717171;padding: 0px 50px;padding-bottom: 5px; font-size: 20px;text-decoration: none;text-align: center;}
+#creach p{ margin: 5px 0px; color: #717171;padding: 0px 50px;padding-bottom: 5px; font-size: 20px;text-decoration: none;text-align: center;}
 /*reach us*/
 /*let us*/
 #clet{display: flex; flex-wrap: wrap; justify-content: center;}
@@ -142,7 +142,7 @@ textarea::placeholder{color: #547A96; font-size: 16px; }
    #con_sidel1{top:670px;
     }
 @media screen and (min-width:300px) and (max-width:615px){
-    #croot1{width: 95%;} 
+    #croot1{width: 90%;} 
 }
 @media screen and (min-width:1024px) and (max-width:1115px){
     #con_sidel2{bottom: -250px;}
