@@ -45,7 +45,7 @@ textarea:focus { outline-style: none;}
 #ch1{ text-align: center; color: #717171; font-size: 30px;}
 
 /*reach us*/
-#creach1, #creach2{width: 100%; height: 40%; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;}
+#creach1, #creach2,#creach3{width: 100%; height: 25%; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;}
 #creach h2{ height: 20%; margin: 0px; padding-top: 26px; color: #717171; font-size: 28px;  }
 #ciphone, #cimail{height: 60%; width: 100%; display: flex; justify-content: center; align-items: flex-end;margin-bottom: 10px;}
     #ciphone img, #cimail img{ width: 38px;}
