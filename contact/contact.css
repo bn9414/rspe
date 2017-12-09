@@ -47,7 +47,7 @@ textarea:focus { outline-style: none;}
 /*reach us*/
 #creach1, #creach2{width: 100%; height: 40%; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;}
 #creach h2{ height: 20%; margin: 0px; padding-top: 26px; color: #717171; font-size: 28px;  }
-#ciphone, #cimail{height: 60%; width: 100%; display: flex; justify-content: center; align-items: flex-end;margin-bottom: 10px;}
+#ciphone, #cimail{height: 40%; width: 100%; display: flex; justify-content: center; align-items: flex-end;margin-bottom: 10px;}
     #ciphone img, #cimail img{ width: 38px;}
 
 #creach p{ height: 40%; margin: 0px; color: #717171;padding: 0px 50px;padding-bottom: 5px; font-size: 20px;text-decoration: none;text-align: center;}
@@ -75,7 +75,7 @@ textarea::placeholder{color: #547A96; font-size: 16px; }
 
 #clet0{ margin: 0px; width: 100%; height: 20%; color: #f9f9f9;  font-size: 28px; display: flex; justify-content: center; align-items: center; }
 
-#clet6{ display: flex; justify-content: center; align-items: center;}
+#clet6{ display: flex; justify-content: center; align-items: center;margin: 10px 0px}
 #fsubmit{ border-style: none; border-radius: 5px;cursor: pointer;  color:#547A96;background-image: url(images/mailsend.svg);background-size: 24px 24px; font-size: 20px;  height: 40px; background-color:white;  background-repeat: no-repeat; background-position: 90px 5px; width: 130px; padding-right: 30px; transition: padding-right 0.5s, background-position,0.5s;}
 /* inter */
 #fsubmit:hover{ padding-right: 43px; background-position: 93px 2px;}
@@ -97,10 +97,10 @@ textarea::placeholder{color: #547A96; font-size: 16px; }
 
 @media screen and (min-width:300px) and (max-width:615px){
     .creach3{padding-bottom: 50px}
-    #cont_cont{height: 1250px;} 
-    #croot1{ flex-direction: column; width: 90%;}
+    #cont_cont{height: auto;} 
+    #croot1{ flex-direction: column; width: 95%;}
 
-    #croot1{height: 1200px;}
+    #croot1{height: auto}
     #clet{width: 100%; border-radius: 0px 0px 10px 10px; height: 60%}
     form{height: 100%;}
     #creach{width: 100%; height: 50%;  }
@@ -112,13 +112,13 @@ textarea::placeholder{color: #547A96; font-size: 16px; }
     #ch1{ font-size: 250%}
      #clet0, #creach h2{font-size: 20px;text-align: center;}
     #creach p{ font-size: 20px;}
-    #clet1,#clet2, #clet3{ font-size: 100%}
+    #clet1,#clet2, #clet3{ font-size: 100%;margin: 10px 0px}
     #letleft{flex-direction: column;}
     #letleft1{width: 80%; height: 60%; }
-    #clet5 {width: 80%; height: 40%;}
+    #clet5 {width: 80%; height: 120px;margin: 10px 0px;}
     #clet1 input, #clet2 input, #clet3 input, #clet5 textarea{width: 95%;}
 
-
+    #clet5 textarea{padding-top: 35px;}
     #clet1 input:focus{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 98%;}
 #clet2 input:focus{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 98%;}
 #clet3 input:focus{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 98%;}
@@ -142,7 +142,7 @@ textarea::placeholder{color: #547A96; font-size: 16px; }
    #con_sidel1{top:670px;
     }
 @media screen and (min-width:300px) and (max-width:615px){
-    #croot1{width: 80%;} 
+    #croot1{width: 90%;} 
 }
 @media screen and (min-width:1024px) and (max-width:1115px){
     #con_sidel2{bottom: -250px;}
