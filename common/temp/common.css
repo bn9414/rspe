@@ -58,7 +58,7 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 85px;}
 
 /*bar style*/
 /* arranging in single row*/
-#test{border: 1px olid black; width: 70px; margin: auto; display: block; padding-top: 5px; box-sizing: content-box;  }
+#test{border: 1px olid black; width: 190px; margin: auto; display: block; padding-top: 5px; box-sizing: content-box;  }
 .menulogo a{color: #676C6F; }
 .menulogo *{border: 1px olid black;}
 .menulogo{display: flex; width: 800px; height: 80px; margin: auto; color: #c2c2c2;justify-content: flex-end; font-size: 16px; font-weight: 500; position: absolute; right: 0px;top: -1px; font-family: sans-serif; }
@@ -66,7 +66,6 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 85px;}
 #nav_soc,.mobsoc{display: flex; justify-content: center;align-items: center;position: relative;top: -10px;left: -10px}
 #nav_soc p{ font-size: 17px; color: #676C6F;margin-left: 5px }
 #nav_soc span,.mobsoc span{width: 24px; height: 24px;display: block; background-image: url(images/what.svg);background-size: 24px 24px;}
-.mobsoc span{background-image: url(images/whatw.svg);}
 .mobsoc{}
 
 
@@ -100,7 +99,7 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 85px;}
     #nav_bar{height: 60px; }
    #cfloat{display: none;}
     #nav_soc{display: none;}
-   #test{ width: 70px; padding-top: 7px;padding-left: 50px; }
+   #test{ width: 140px; padding-top: 14px;padding-left: 10px; }
     #logo_ex{position: absolute; left:50%; margin-left: -75px;}
     .p_down{background-image: url(images/downw.svg);}
 }
@@ -116,7 +115,7 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 85px;}
     #cfloat{display: none;}
     
     
-    #test{ width: 70px; padding-top: 11px;padding-left: 10px; }
+    #test{ width: 150px; padding-top: 11px;padding-left: 10px; }
     #logo_ex{position: absolute; left:50%; margin-left: -75px;}
 .p_down{background-image: url(images/downw.svg);}
     
