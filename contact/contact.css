@@ -97,7 +97,7 @@ textarea::placeholder{color: #547A96; font-size: 16px; }
 
 @media screen and (min-width:300px) and (max-width:615px){
     .creach3{padding-bottom: 50px}
-    #cont_cont{height: 1350px;} 
+    #cont_cont{height: 1450px;} 
     #croot1{ flex-direction: column; width: 90%;}
 
     #croot1{height: 1300px;}
