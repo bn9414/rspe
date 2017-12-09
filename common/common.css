@@ -77,7 +77,7 @@ body{margin: 0px; min-height: 100%; position: relative; padding-bottom: 85px;}
 /* END: hover transition navigation menu */
 
 /*START: mobile navigation menu*/
-.mob_menu{ border-right: 1px solid #242e35; position: relative; width:100%; height: auto;  position: absolute;z-index: 5;  display: none; flex-direction: column; justify-content: center; box-sizing: border-box; left: -100%;  transition: left 0.6s  cubic-bezier(.88,.17,.48,.9), border-right 0.1s 0.6s ease; }
+.mob_menu{ border-right: 1px solid #242e35; position: relative; width:100%; height: auto;  position: absolute;z-index: 15;  display: none; flex-direction: column; justify-content: center; box-sizing: border-box; left: -100%;  transition: left 0.6s  cubic-bezier(.88,.17,.48,.9), border-right 0.1s 0.6s ease; }
 .mm{color:#fcfcfc; font-weight: 500; height: auto; width: 100%; margin: auto; display: flex; align-items: center; font-size: 25px; justify-content: flex-start;box-sizing: border-box; background-color: #343434; margin-bottom: 0px;padding: 15px 40px;}
 .ms{  display: flex; justify-content: flex-start; align-items: space-around; height: auto;padding-bottom: 0px;padding-right: 0px;padding-top: 0px;margin: 0px;width: ;}
 #mobbook{ height: 70px;}
