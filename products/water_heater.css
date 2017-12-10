@@ -1,12 +1,13 @@
 .ref_cont *{border: 1px olid}
 .ref_cont{width: 100%; height: auto;display: flex;flex-wrap: wrap;margin-top: 100px;align-items: flex-start;justify-content: flex-start;margin-bottom: 50px;}
-.ref{display: inline-block; width: 300px ;height: auto;border: 1px olid; border-radius: 10px; padding: 10px;;margin-top: 35px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);display: flex;flex-direction: column;align-items: center;justify-content: center;margin: auto;margin: 10px auto }
-.mg{width: 300px; height: 300px;display: flex}
+.ref{display: inline-block; width: 280px ;height: auto;border: 1px olid; border-radius: 10px; padding: 10px;;margin-top: 35px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);display: flex;flex-direction: column;align-items: center;justify-content: center;margin: auto;margin: 10px auto;background-color: white; }
+.mg{width: 280px; height: 300px;display: flex;border: 1px solid #b5b5b5;border-radius: 10px;overflow: hidden}
 .mg img{height: 100%;margin: auto;}
-.desc{width: 300px; height: auto;font-size: 23px; text-align: center; color: #343434}
+.desc{width: 280px; height: auto;font-size: 18px; text-align: center; color: #343434;font-family: 'Ubuntu', sans-serif;}
 
-.menu7,.menu7_up{font-size: 20px; color: #f9f9f9; font-family: sans-serif; font-weight: 600; display: block; border-radius: 30px;width: 175px; height: 40px; background-color:#547A96; background-image: url(images/right.png); background-repeat: no-repeat; background-position:140px; background-size: 30px 30px;transition: width 0.5s, background-position 0.5s, padding 0.5s,opacity 0.5s, transform 0.5s;display: flex;justify-content: center;align-items: center;}
+.menu7,.menu8,.menu7_up{font-size: 18px; color: #f9f9f9; font-family: sans-serif; font-weight: 600; display: block; border-radius: 30px;width: 155px; height: 35px; background-color:#547A96; background-image: url(images/right.png); background-repeat: no-repeat; background-position:125px; background-size: 25px 30px;transition: width 0.5s, background-position 0.5s, padding 0.5s,opacity 0.5s, transform 0.5s;display: flex;justify-content: center;align-items: center;}
+.menu8{background-image: none;margin-top: 14px;background-color: #49AB81;}
 
 .b{transform: scale(1.05);}
 
-.menu7:hover{background-position: 145px;}
+.menu7:hover{background-position: 130px;}
