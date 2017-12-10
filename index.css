@@ -20,3 +20,58 @@
 }
 /* end pre-load screen*//
 
+/* start: 1st layer*/
+.what img{ width: 150px; margin: auto;display: block;transition: transform 0.5s, color 0.5s, opacity 0.5s,width 0.5s;}
+.what h1{font-family: archive; font-size: 70px;text-align: center;color: #fcfcfc;font-weight: 100;font-family: 'Ubuntu', sans-serif;position: relative;overflow: hidden;border: 1px olid}
+
+.what{width: 100%; height: 600px;background-color: black;transition: ox-shadow: 0px 2px 35px 5px rgba(20, 20, 20, 0.2);display: flex;justify-content: center;align-items: center;}
+.headtext{overflow: hidden;}
+
+.what span{position: relative; top: 10px;position: inherit;top: 30px; display:inline-block;border: 1px olid;height: 80px;opacity:0;  transition: top 1s, opacity 1s;}
+.hd1{animation-name: h;animation-duration: 0.7s; animation-fill-mode: forwards;}
+.hd2{animation-name: h;animation-duration: 0.7s; animation-fill-mode: forwards;animation-delay: 0.2s;}
+.hd3{animation-name: h;animation-duration: 0.7s; animation-fill-mode: forwards;animation-delay: 0.4s;}
+.hd4{animation-name: h;animation-duration: 0.7s; animation-fill-mode: forwards;animation-delay: 0.6s;}
+.hd5{animation-name: h;animation-duration: 0.7s; animation-fill-mode: forwards;animation-delay: 0.8s;}
+.hd6{animation-name: h;animation-duration: 0.7s; animation-fill-mode: forwards;animation-delay: 1s;}
+.hd7{animation-name: h;animation-duration: 0.7s; animation-fill-mode: forwards;animation-delay: 1.2s;}
+.homeani{animation-name: hdt1;}
+
+
+@keyframes hdt1{
+    from{}
+    to{top: 0px;opacity: 1;}
+}
+.what .buildm{ width: 100px; height: 80px; background-image: url(images/build.svg);background-repeat: no-repeat;background-size: 90%;;padding-top: 0px;opacity: 1;}
+
+@media screen and (max-width:480px)
+{
+    .what h1{font-size: 50px;text-align: left}
+    .what span{height: 65px;}
+    .what{padding-left: 5px;height: 450px;}    
+}
+
+/* end: 1st layer*/
+
+/* start: sec2*/
+.sec2 *{border: 1px olid ;}
+.sec2{width: 100%; height: auto;}
+.sec2 h1{text-align: center;color: #454545;font-family: 'Ubuntu', sans-serif;}
+.pbox p{text-align: center;color: #454545;font-size: 23px;font-family: 'Slabo 27px', serif;}
+.pbox img{width: 150px;margin: auto;display: block;padding-top: 5px}
+.pbox{width: 250px;box-shadow: 5px 5px 20px 0px rgba(20, 20, 20, 0.15);border-radius: 10px;margin: 20px 20px;}
+.pbox_con{display: flex;flex-wrap: wrap;justify-content: center;align-items: center}
+/* end: sec2*/
+
+/* start: sec2*/
+.sec3{width: 100%; height: auto;}
+.sec3 h1{text-align: center;color: #454545;}
+.bbox p{text-align: center;color: #454545;font-size: 20px;}
+.bbox img{width: 150px;margin: auto;filter: grayscale(100%);display: block;transition: filter 0.5s;}
+.bbox{width: 250px;margin: 20px 20px;}
+.bbox_con{display: flex;flex-wrap: wrap;justify-content: center;align-items: center}
+.bbox:hover img{filter: grayscale(0%);}
+/* end: sec2*/
+
+
+
